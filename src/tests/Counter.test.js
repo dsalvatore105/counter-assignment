@@ -1,6 +1,7 @@
 import {render, screen, fireEvent} from '@testing-library/react' // import necessary react testing library helpers here
 import Counter from '../components/Counter' // import the Counter component here
 
+//
 beforeEach(() => {
   render(<Counter/>)
 })
