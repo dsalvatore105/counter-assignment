@@ -2,7 +2,7 @@ import {render, screen, fireEvent} from '@testing-library/react' // import neces
 import Counter from '../components/Counter' // import the Counter component here
 
 beforeEach(() => {
-  render(Counter)
+  render(<Counter/>)
 })
 
 test('renders counter message', () => {
